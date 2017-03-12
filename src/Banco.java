@@ -1,5 +1,7 @@
 import java.util.LinkedList;
 
+//TESTE
+
 public class Banco {
 	private LinkedList<Cliente> clients;
 	private LinkedList<Caixa> tellers;
