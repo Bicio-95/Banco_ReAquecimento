@@ -19,11 +19,11 @@ import java.util.LinkedList;
 
 public class Banco {
 	private LinkedList<Cliente> clients;
-	private LinkedList<Caixa> tellers;
+	private LinkedList<Caixa> Caixa;
 
 	public Banco() {
 		this.clients = new LinkedList<Cliente>();
-		this.tellers = new LinkedList<Caixa>();
+		this.Caixa = new LinkedList<Caixa>();
 	}
 
 	public boolean addClient(Cliente client) {
@@ -31,7 +31,7 @@ public class Banco {
 	}
 
 	public boolean addTeller(Caixa teller) {
-		return this.tellers.add(teller);
+		return this.Caixa.add(teller);
 	}
 
 	public LinkedList<Cliente> getClients() {
@@ -39,7 +39,7 @@ public class Banco {
 	}
 
 	public LinkedList<Caixa> getTellers() {
-		return this.tellers;
+		return this.Caixa;
 	}
 
 }
